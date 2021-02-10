@@ -88,6 +88,13 @@ a:hover{
 	border-radius: 0px !important;
 	border-color: #56ab2f !important;
 }
+.card-footer{
+	border-radius: 0px !important;
+	padding: 0px !important;
+    background-color: #fff !important;
+    border-top: 1px solid #56ab26 !important;
+    /*border-bottom: 1px solid #56ab26 !important;*/
+}
 .card-img-top{
 	border-radius: 0px !important;
 }
@@ -95,21 +102,25 @@ a:hover{
 	background: transparent !important;
 	border: 1px solid #56ab26;
 	color: #000;
+	transition: .5s all ease-out;
 }
 .button-one:hover{
 	background: #56ab26 !important;
 	border: 1px solid #f1f1f1 !important;
 	color: #f1f1f1 !important;
+	transition: .5s all ease-in;
 }
 .button-two{
 	background: #56ab26 !important;
 	border: 1px solid #56ab26;
 	color: #fff;
+	transition: .5s all ease-out;
 }
 .button-two:hover{
 	background: transparent !important;
 	border: 1px solid #56ab26 !important;
 	color: #000 !important;
+	transition: .5s all ease-in;
 }
 
 /****************************************************************
@@ -170,14 +181,63 @@ a:hover{
 /****************************************************************
 					About CSS Start
 *****************************************************************/
-
+.background{
+	background: url(../img/academy.png);
+	margin-left: 20%;
+	height: 90%;
+	margin-bottom: -5%;
+}
+.background img{
+	height: 290px;
+	margin-top: 10%;
+	margin-left: -10%;
+}
 /****************************************************************
 					About CSS End
 *****************************************************************/
 /****************************************************************
 					Course CSS Start
 *****************************************************************/
-
+.course-card-menu li:nth-child(1){
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-right: 1px solid #56ab26;
+}
+.course-card-menu li:nth-child(3){
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-left: 1px solid #56ab26;
+}
+.course-card-menu li .btn{
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background: #56ab26;
+	border-right: 1px solid #56ab26;
+	border-left: 1px solid #56ab26;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev{
+	position: absolute;
+	top: 45%;
+	font-size: 35px;
+	font-weight: 300;
+}
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover{
+	background: transparent !important;
+	color: #56ab26;
+}
+.owl-carousel .owl-nav button.owl-next
+{
+	right: -5%;
+}
+.owl-carousel .owl-nav button.owl-prev
+{
+	left: -5%;
+}
 /****************************************************************
 					Course CSS End
 *****************************************************************/
