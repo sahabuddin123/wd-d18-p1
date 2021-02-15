@@ -1,1 +1,16 @@
-responsive.css
+@media screen and (max-width: 768px) {
+  .left-topbar li a span{
+		display: none;
+	}
+   .custom_flex{
+   	display: block !important;
+   }
+   .custom_flex div p{
+   	text-align: center !important;
+   }.custom_flex div ul{
+   	margin: 2% 25% !important;
+   }
+   .c-padding-top30{
+   	padding-top: 30px !important;
+   }
+}
